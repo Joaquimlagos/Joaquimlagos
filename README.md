@@ -1,16 +1,17 @@
 ### Hi there 👋
 
-<!--
-**Joaquimlagos/Joaquimlagos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+**WELCOME TO MY GITHUB** my name is joaquim lagos, i'm a student of systems analysis and development, and here are some of my projects.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+here are some of the technologies i've worked on:
+
+- :rocket: *Typescript*
+- :space_invader: *java*
+- :leaves: *nodejs*
+- :dart: *javascript*
+- :shirt: *html*
+- :jeans: *css*
+- :computer: *docker*
+- :cloud: *aws*
+
