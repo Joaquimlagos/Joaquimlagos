@@ -4,5 +4,6 @@
 
  Here are some of the technologies i've worked on:
 
-- **Technologies:** :rocket: *Typescript*,:space_invader: *java*,:leaves: *nodejs*, :dart: *javascript*, :shirt: *html*, :jeans: *css*,:computer: *docker*, :cloud: *aws*
+- **Technologies:** :rocket: *Typescript*, :space_invader: *java*,      :leaves: *nodejs*, :dart: *javascript*, :shirt: *html*, :jeans: *css*,:computer: *docker*, :cloud: *aws*
+-**Linkedin**[:house_with_garden:](https://www.linkedin.com/in/joaquim-lagos-68933a183/)
 
