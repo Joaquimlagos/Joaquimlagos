@@ -1,6 +1,6 @@
 <h1 align="center">Joaquim Lagos</h1>
 <p align="center">
-  <b>Engenheiro Backend</b> | Sistemas Bancários de Alta Escala &bull; AWS &bull; IA Aplicada (RAG)
+  <b>Engenheiro Backend</b> | Sistemas Bancários de Alta Escala &bull; AWS &bull; IA Aplicada & RAG
 </p>
 
 <p align="center">
@@ -12,17 +12,16 @@
 ---
 
 ### ⚡ Resumo
-Engenheiro Backend na **NTT DATA**, atuando em projetos estratégicos de grande escala no **Banco Itaú** (cartões PJ e Agro). Foco em APIs resilientes, arquitetura Cloud (AWS), microsserviços e inovação com IA Generativa. Formado em ADS pelo SENAI-SC.
+Engenheiro Backend na **NTT DATA**, atuando em projetos estratégicos de grande escala no **Banco Itaú** (cartões PJ e Agro). Especialista em microsserviços, arquitetura Cloud (AWS) e na integração prática de **Inteligência Artificial Generativa e RAG** no desenvolvimento de software.
 
-### 🛠️ Tech Stack
-* **Linguagens:** Java (11–21) | Kotlin | Python | JavaScript / Node.js
-* **Backend & Arquitetura:** Spring Boot | Microsserviços | Clean Code | SOLID | JUnit / Kotest
+### 🛠️ Tech Stack & IA
+* **Backend:** Java (11–21) | Kotlin | Python | Spring Boot | Microsserviços | Clean Code | SOLID
 * **Cloud & DevOps:** AWS (Lambda, ECS, SQS, DynamoDB, API Gateway) | Terraform | LocalStack | Docker | CI/CD
-* **Dados & Observabilidade:** PostgreSQL | MySQL | Datadog | Splunk | CloudWatch
+* **IA & LLMs:** RAG (Retrieval-Augmented Generation) | Integração com LLMs via Gateway | Prompt Engineering & Agents
 
-### 🚀 Principais Projetos (Repositórios)
-> *Explore a estrutura completa nos links abaixo:*
+### 🚀 Destaque de Projetos (Fraud Detector Platform)
+> *Sistema distribuído de detecção de fraudes construído com foco em arquitetura limpa e IA aplicada:*
 
-* **[Fraud Detector (API)](https://github.com/Joaquimlagos/fraud-detector)** — Core em **Java / Spring Boot** que valida cadastros e publica eventos de transação de forma assíncrona em filas SQS.
-* **[Fraud Detector (Lambda)](https://github.com/Joaquimlagos/fraud-detector-lambda)** — Motor de regras em **Python / AWS Lambda** baseado em Strategy Pattern e integrado com **RAG** para análise de risco via LLMs.
-* **[Fraud Detector (Infra AWS)](https://github.com/Joaquimlagos/fraud-detector-infra-aws)** — Provisionamento automatizado de infraestrutura utilizando **Terraform** e tabelas DynamoDB.
+* **[Fraud Detector API (Java/Spring)](https://github.com/Joaquimlagos/fraud-detector)** — Validação e persistência de cadastros com mensageria assíncrona (SQS).
+* **[Fraud Detector Lambda (Python/IA)](https://github.com/Joaquimlagos/fraud-detector-lambda)** — Motor de regras de risco e **endpoint com RAG**, consultando contexto de transações para gerar explicações em linguagem natural via LLM.
+* **[Fraud Detector Infra (Terraform)](https://github.com/Joaquimlagos/fraud-detector-infra-aws)** — Provisionamento automatizado de infraestrutura AWS (DynamoDB, Lambdas, etc.).
