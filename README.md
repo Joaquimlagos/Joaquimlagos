@@ -1,6 +1,6 @@
 <h1 align="center">Joaquim Lagos</h1>
 <p align="center">
-  <b>Engenheiro Backend</b> | Sistemas Bancários de Alta Escala &bull; AWS &bull; IA Aplicada & RAG
+  <b>Engenheiro Backend</b> | Sistemas de Alta Escala &bull; AWS &bull; IA Aplicada
 </p>
 
 <p align="center">
