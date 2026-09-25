@@ -1,27 +1,31 @@
-<h1 align="center">Joaquim Lagos</h1>
-<p align="center">
-  <b>Engenheiro Backend</b> | Sistemas de Alta Escala &bull; AWS &bull; IA Aplicada
-</p>
+# Joaquim Lagos
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/joaquim-lagos-68933a183/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/Joaquimlagos" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="mailto:joaquim.lagos2000@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+**Senior Backend Engineer** | Java & Kotlin • AWS • IA Aplicada
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaquim-lagos-68933a183/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Joaquimlagos) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joaquim.lagos2000@gmail.com)
 
 ---
 
 ### ⚡ Resumo
-Engenheiro Backend na **NTT DATA**, atuando em projetos estratégicos de grande escala no **Banco Itaú** (cartões PJ e Agro). Especialista em microsserviços, arquitetura Cloud (AWS) e na integração prática de **Inteligência Artificial Generativa e RAG** no desenvolvimento de software.
 
-### 🛠️ Tech Stack & IA
-* **Backend:** Java (11–21) | Kotlin | Python | Spring Boot | Microsserviços | Clean Code | SOLID
-* **Cloud & DevOps:** AWS (Lambda, ECS, SQS, DynamoDB, API Gateway) | Terraform | LocalStack | Docker | CI/CD
-* **IA & LLMs:** RAG (Retrieval-Augmented Generation) | Integração com LLMs via Gateway | Prompt Engineering & Agents
+Engenheiro de Software Sênior na **NTT DATA**, atuando em projetos de grande escala no **Banco Itaú** (cartões PJ e Agro). Construo sistemas backend com Java, Kotlin e Spring Boot na AWS e, nos projetos pessoais, combino arquiteturas event-driven com **LLMs e RAG**.
 
-### 🚀 Destaque de Projetos (Fraud Detector Platform)
-> *Sistema distribuído de detecção de fraudes construído com foco em arquitetura limpa e IA aplicada:*
+### 🛠️ Tech Stack
 
-* **[Fraud Detector API (Java/Spring)](https://github.com/Joaquimlagos/fraud-detector)** — Validação e persistência de cadastros com mensageria assíncrona (SQS).
-* **[Fraud Detector Lambda (Python/IA)](https://github.com/Joaquimlagos/fraud-detector-lambda)** — Motor de regras de risco e **endpoint com RAG**, consultando contexto de transações para gerar explicações em linguagem natural via LLM.
-* **[Fraud Detector Infra (Terraform)](https://github.com/Joaquimlagos/fraud-detector-infra-aws)** — Provisionamento automatizado de infraestrutura AWS (DynamoDB, Lambdas, etc.).
+- **Backend:** Java (11–21) | Kotlin | Python | Spring Boot | Microsserviços
+- **Cloud & DevOps:** AWS (Lambda, Step Functions, EventBridge, SQS, DynamoDB, ECS, API Gateway) | Terraform | LocalStack | Docker | GitHub Actions
+- **IA & LLMs:** RAG | Roteamento e fallback entre modelos (Groq, Gemini) | Agents
+
+### 🚀 Projetos em Destaque
+
+**🤖 Pipeline de Code Review com IA** — revisão automática de PRs, 100% serverless
+
+- **[codereview-lambda](https://github.com/Joaquimlagos/codereview-lambda)** — Roteia cada PR entre modelos conforme a complexidade, com fallback entre provedores, RAG sobre o código do projeto e comentários inline via GitHub App.
+- **[codereview-infra](https://github.com/Joaquimlagos/codereview-infra)** — EventBridge + Step Functions em Terraform, executável localmente com LocalStack.
+- **[codereview-app](https://github.com/Joaquimlagos/codereview-app)** — Workflows do GitHub Actions autenticados via OIDC que disparam a revisão a cada PR.
+
+**🔍 Fraud Detector** — detecção de fraudes event-driven com IA explicável
+
+- **[Fraud Detector API (Java/Spring)](https://github.com/Joaquimlagos/fraud-detector)** — Recebe transações, publica no SQS para análise assíncrona e consulta a análise detalhada.
+- **[Fraud Detector Lambda (Python/IA)](https://github.com/Joaquimlagos/fraud-detector-lambda)** — Motor de regras de risco e análise via RAG + LLM que explica em linguagem natural por que uma transação é suspeita.
+- **[Fraud Detector Infra (Terraform)](https://github.com/Joaquimlagos/fraud-detector-infra-aws)** — Provisionamento da infraestrutura AWS (SQS, DynamoDB, Lambdas).
