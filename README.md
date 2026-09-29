@@ -14,15 +14,15 @@ Engenheiro de Software Sênior na **NTT DATA**, atuando em projetos de grande es
 
 - **Backend:** Java (11–21) | Kotlin | Python | Spring Boot | Microsserviços
 - **Cloud & DevOps:** AWS (Lambda, Step Functions, EventBridge, SQS, DynamoDB, ECS, API Gateway) | Terraform | LocalStack | Docker | GitHub Actions
-- **IA & LLMs:** RAG | Roteamento e fallback entre modelos (Groq, Gemini) | Agents
+- **IA & LLMs:** RAG em nível de método (tree-sitter) | Roteamento e fallback entre modelos (Groq, Cerebras, Gemini) | Agents
 
 ### 🚀 Projetos em Destaque
 
 **🤖 Pipeline de Code Review com IA** — revisão automática de PRs, 100% serverless
 
-- **[codereview-lambda](https://github.com/Joaquimlagos/codereview-lambda)** — Roteia cada PR entre modelos conforme a complexidade, com fallback entre provedores, RAG sobre o código do projeto e comentários inline via GitHub App.
-- **[codereview-infra](https://github.com/Joaquimlagos/codereview-infra)** — EventBridge + Step Functions em Terraform, executável localmente com LocalStack.
-- **[codereview-app](https://github.com/Joaquimlagos/codereview-app)** — Workflows do GitHub Actions autenticados via OIDC que disparam a revisão a cada PR.
+- **[codereview-lambda](https://github.com/Joaquimlagos/codereview-lambda)** — Roteia cada PR entre modelos conforme a complexidade, com fallback entre Groq, Cerebras e Gemini, RAG em nível de método sobre o código do projeto e comentários inline via GitHub App.
+- **[codereview-infra](https://github.com/Joaquimlagos/codereview-infra)** — EventBridge, Step Functions, bucket S3, Secrets Manager e role OIDC do GitHub, tudo em Terraform.
+- **[codereview-app](https://github.com/Joaquimlagos/codereview-app)** — Workflows do GitHub Actions autenticados via OIDC que disparam a revisão a cada PR e mantêm o índice RAG do código.
 
 **🔍 Fraud Detector** — detecção de fraudes event-driven com IA explicável
 
